@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main-head{
+	text-align: center;
+	justify-content: center;
+	color: brown;
+}
+.main-para{
+	justify-content: center;
+	text-align: center;
+}
+.gridRow{
+	grid-row: ;
+}

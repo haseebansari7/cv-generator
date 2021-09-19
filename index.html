@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Boot Strap CSS File -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- My CSS File  -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<title>Create Resume Page</title>
+</head> 
+<body>
+		<!-- main div container for hole text include -->
+	<div class="container">
+		
+		<h1 class="main-head">CREATE RESUME</h1> 	<!-- main heading tag -->	
+		<p class="main-para">I have create Resume Web site</p>
+		
+		<div class="row">	<!-- div use create row -->
+			
+			<div class="col-md-6">
+				<!-- first colum -->
+				<h3>Personal Information</h3> <!-- first coloum heading -->
+				
+				<div class="form-group">
+					<label for="nameField">Your Name</label>
+					<input type="text" id="nameField" class="form-control"name="">		
+				</div>
+
+
+				<div class="form-group mt-2">
+					<label for="nameField">Your Contact Number</label>
+					<input type="text" id="contactField" class="form-control"name="">		
+				</div>
+
+				<div class="form-group mt-2">
+					<label for="addressField">Your Address </label>
+					<textarea id="contactField" class="form-control" rows="5" name=""></textarea>		
+				</div>
+
+				<p class="mt-2">Social Media Information</p>
+				
+				<div class="form-group">
+					<label for="fbField">Facebook</label>
+					<input type="text" id="fbField" class="form-control"name="">		
+				</div>
+
+				<div class="form-group">
+					<label for="instaField">Instagram</label>
+					<input type="text" id="instaField" class="form-control"name="">		
+				</div>
+
+				<div class="form-group">
+					<label for="twitterField">Twitter</label>
+					<input type="text" id="twitterField" class="form-control"name="">		
+				</div>
+
+			</div> <!-- end first coloum -->
+ 
+			<div class="col-md-6">
+				<!-- second coloum -->
+				<h3>Professional Information</h3>
+				
+				<div class="form-group mt-2">
+					<label for="addressField">Object</label>
+					<textarea class="form-control" name=""></textarea>		
+				</div>
+
+				<!-- start -->
+				<div class="form-group mt-2" id="we">
+					<label for="addressField">Work Experience</label>
+					<textarea  class="form-control weField" rows="2" name=""></textarea>		
+							<!-- new text area -->
+							
+					<div class="container text-center mt-2 " id="weAddButton">
+						<button onclick="addNewWEField()" class="btn btn-primary btn-sm">add</button>
+					</div>
+				</div>	<!-- end -->
+
+				<!-- start -->
+				<div class="form-group mt-2">
+					<label for="addressField">Academic Qualification</label>
+					<textarea  class="form-control aqField" rows="2" name=""></textarea>		
+			
+					<div class="container text-center mt-2" id="aqAddButton">
+						<button class="btn btn-primary btn-sm">add</button>
+					</div>
+				</div>	<!-- end -->
+
+			</div> <!-- end second column -->
+		</div>	<!-- end row div -->
+
+		<!-- submit button for CV -->
+		<div class="container text-center mt-5">
+			<button class="btn btn-primary btn-lg">Generat CV</button>
+		</div>	<!-- end submit button -->
+
+	</div> <!-- end main div container -->
+
+
+	<!-- Boot Strap File -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+	<!-- My JavaStrip File -->
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
